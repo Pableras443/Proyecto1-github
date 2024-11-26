@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(206, 22, 22);
+    font-family: Verdana, sans-serif;
+}
+h1 {
+    color: rgb(250, 180, 180);
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Gill Sans';
+}
+h2 {
+    color: rgb(250, 180, 180);
+    font-size: 15px;
+    text-align: right;
+    font-family:'Lucida Sans',
+}
+p {
+    color: rgb(233, 127, 153);
+    font-size: 20px;
+    text-align: left;
+    font-family:'Times New Roman';
+}

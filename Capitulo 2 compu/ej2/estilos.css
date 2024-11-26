@@ -1,0 +1,28 @@
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    height: 100vh; 
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+.section {
+    background-color: #ff47f0; 
+    color: white;
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .section {
+        width: 90%; 
+        margin-bottom: 150px; 
+    }
+}
